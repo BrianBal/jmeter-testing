@@ -1,0 +1,1127 @@
+2010/06/25 08:57:11 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Loading user properties from: /Users/brian/Projects/jmeter-testing/jmeter/bin/user.properties 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Loading system properties from: /Users/brian/Projects/jmeter-testing/jmeter/bin/system.properties 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Copyright (c) 1998-2009 The Apache Software Foundation 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Version 2.3.4 r785646 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: java.version=1.6.0_20 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: os.arch=x86_64 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: os.version=10.6.4 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: file.encoding=MacRoman 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: JMeterHome=/Users/brian/Projects/jmeter-testing/jmeter 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: user.dir  =/Users/brian/Projects/jmeter-testing/jmeter/bin 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: PWD       =/Users/brian/Projects/jmeter-testing/jmeter/bin 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: IP: 10.0.1.20 Name: MacBookPro.local FullName: 10.0.1.20 
+2010/06/25 08:57:12 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2010/06/25 08:57:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2010/06/25 08:57:13 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2010/06/25 08:57:14 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2010/06/25 08:57:14 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2010/06/25 08:57:14 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.UserParameterModifierGui 
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSampler: Maximum connection retries = 10 
+2010/06/25 08:57:14 INFO  - jmeter.protocol.http.sampler.HTTPSampler: Connection and read timeouts are available on this JVM 
+2010/06/25 08:57:15 WARN  - jmeter.gui.util.MenuFactory: Missing jar? Could not create org.apache.jmeter.visualizers.MailerVisualizer. java.lang.NoClassDefFoundError: javax/mail/MessagingException 
+2010/06/25 08:57:15 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2010/06/25 08:57:15 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2010/06/25 08:57:28 INFO  - jmeter.services.FileServer: Default base=/Users/brian/Projects/jmeter-testing/jmeter/bin 
+2010/06/25 08:57:28 INFO  - jmeter.gui.action.Load: Loading file: /Users/brian/Projects/jmeter-testing/tests/WordPressDemo.jmx 
+2010/06/25 08:57:28 INFO  - jmeter.services.FileServer: Set new base=/Users/brian/Projects/jmeter-testing/tests 
+2010/06/25 08:57:28 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2010/06/25 08:57:28 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2010/06/25 08:57:28 INFO  - jmeter.save.SaveService: Using SaveService properties file version 697317 
+2010/06/25 08:57:28 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.1 
+2010/06/25 08:57:28 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2010/06/25 08:57:28 INFO  - jmeter.services.FileServer: Set new base=/Users/brian/Projects/jmeter-testing/tests 
+2010/06/25 08:57:51 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2010/06/25 08:57:51 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2010/06/25 08:57:51 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 08:57:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 08:57:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 100 threads for group Thread Group. Ramp up = 30. 
+2010/06/25 08:57:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 08:57:51 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2010/06/25 08:57:51 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2010/06/25 08:57:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 08:57:52 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 08:57:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 08:57:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 08:57:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 08:57:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 08:57:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 08:57:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 08:57:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 08:57:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 08:57:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 08:57:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2010/06/25 08:57:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2010/06/25 08:57:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2010/06/25 08:57:55 INFO  - jmeter.protocol.http.parser.HtmlParserHTMLParser: Using htmlparser version: 2.0 (Release Build Sep 17, 2006) 
+2010/06/25 08:57:55 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.HtmlParserHTMLParser 
+2010/06/25 08:57:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2010/06/25 08:57:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2010/06/25 08:57:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2010/06/25 08:57:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2010/06/25 08:57:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2010/06/25 08:57:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2010/06/25 08:57:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2010/06/25 08:57:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2010/06/25 08:57:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2010/06/25 08:57:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2010/06/25 08:57:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2010/06/25 08:57:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2010/06/25 08:57:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2010/06/25 08:57:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2010/06/25 08:58:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2010/06/25 08:58:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2010/06/25 08:58:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2010/06/25 08:58:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-31 
+2010/06/25 08:58:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-32 
+2010/06/25 08:58:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-33 
+2010/06/25 08:58:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-34 
+2010/06/25 08:58:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-35 
+2010/06/25 08:58:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-36 
+2010/06/25 08:58:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-37 
+2010/06/25 08:58:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-38 
+2010/06/25 08:58:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-39 
+2010/06/25 08:58:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-40 
+2010/06/25 08:58:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-41 
+2010/06/25 08:58:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-42 
+2010/06/25 08:58:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-43 
+2010/06/25 08:58:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-44 
+2010/06/25 08:58:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-45 
+2010/06/25 08:58:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-46 
+2010/06/25 08:58:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-47 
+2010/06/25 08:58:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-48 
+2010/06/25 08:58:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-49 
+2010/06/25 08:58:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-50 
+2010/06/25 08:58:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-51 
+2010/06/25 08:58:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-52 
+2010/06/25 08:58:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-53 
+2010/06/25 08:58:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-54 
+2010/06/25 08:58:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-55 
+2010/06/25 08:58:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-56 
+2010/06/25 08:58:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-57 
+2010/06/25 08:58:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-58 
+2010/06/25 08:58:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-59 
+2010/06/25 08:58:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-60 
+2010/06/25 08:58:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-61 
+2010/06/25 08:58:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-62 
+2010/06/25 08:58:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-63 
+2010/06/25 08:58:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-64 
+2010/06/25 08:58:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-65 
+2010/06/25 08:58:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-66 
+2010/06/25 08:58:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-67 
+2010/06/25 08:58:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-68 
+2010/06/25 08:58:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-69 
+2010/06/25 08:58:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-70 
+2010/06/25 08:58:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-71 
+2010/06/25 08:58:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-72 
+2010/06/25 08:58:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-73 
+2010/06/25 08:58:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-74 
+2010/06/25 08:58:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-75 
+2010/06/25 08:58:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-76 
+2010/06/25 08:58:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-77 
+2010/06/25 08:58:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-78 
+2010/06/25 08:58:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-79 
+2010/06/25 08:58:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-80 
+2010/06/25 08:58:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-81 
+2010/06/25 08:58:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-82 
+2010/06/25 08:58:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-83 
+2010/06/25 08:58:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-84 
+2010/06/25 08:58:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-85 
+2010/06/25 08:58:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-86 
+2010/06/25 08:58:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-87 
+2010/06/25 08:58:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-88 
+2010/06/25 08:58:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-89 
+2010/06/25 08:58:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-90 
+2010/06/25 08:58:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-91 
+2010/06/25 08:58:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-92 
+2010/06/25 08:58:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-93 
+2010/06/25 08:58:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-94 
+2010/06/25 08:58:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-95 
+2010/06/25 08:58:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-96 
+2010/06/25 08:58:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-97 
+2010/06/25 08:58:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-98 
+2010/06/25 08:58:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-99 
+2010/06/25 08:58:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-100 
+2010/06/25 08:59:01 INFO  - jmeter.gui.action.Start: Stopping test 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-42 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-42 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-79 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-79 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-28 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-42 
+2010/06/25 08:59:01 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-42 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-59 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-59 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-79 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-27 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-39 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-39 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-96 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-96 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-92 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-92 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-91 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-91 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-96 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-92 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-39 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-68 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-68 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-31 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-31 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-36 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-36 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-91 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-61 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-61 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-25 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-68 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-49 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-49 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-36 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-18 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-75 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-75 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-31 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-66 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-38 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-38 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-74 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-74 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-61 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-70 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-70 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-49 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-75 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-84 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-84 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-16 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-93 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-93 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-34 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-34 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-83 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-83 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-26 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-38 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-93 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-84 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-82 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-82 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-30 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-55 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-55 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-35 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-35 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-34 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-74 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-70 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-83 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-55 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-53 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-53 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-35 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-82 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-85 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-85 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-33 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-33 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-53 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-85 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-33 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-46 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-46 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-51 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-51 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-99 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-99 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-99 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-89 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-89 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-51 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-57 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-57 sampler: Home Page 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-41 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-41 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-89 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-57 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-19 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-32 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-32 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-69 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-69 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-41 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-32 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-44 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-44 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-76 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-76 sampler: Home Page 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-69 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-44 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-17 sampler: Post 1 
+2010/06/25 08:59:01 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2010/06/25 08:59:01 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Post 1 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:01 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-76 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-45 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-45 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-100 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-100 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-64 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-64 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: Post 1 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-37 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-37 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-45 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-64 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-100 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-95 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-95 sampler: Home Page 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-71 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-71 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-58 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-58 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-77 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-77 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-95 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-47 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-47 sampler: Home Page 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-52 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-52 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-58 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-47 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-98 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-98 sampler: Home Page 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-71 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-52 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-22 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-77 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-88 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-88 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-98 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-62 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-62 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-88 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-86 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-86 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-62 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-90 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-90 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-86 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-81 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-81 sampler: Home Page 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-80 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-80 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-81 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-63 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-63 sampler: Home Page 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-90 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-80 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-48 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-48 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-63 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-94 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-94 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-48 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-40 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-40 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-29 sampler: Post 1 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-94 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-40 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-21 sampler: Post 1 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-23 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-78 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-78 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-97 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-97 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-56 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-56 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-78 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-60 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-60 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-97 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-24 sampler: Post 1 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-56 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-60 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-43 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-43 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-50 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-50 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-65 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-65 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-50 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-54 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-54 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-43 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-87 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-87 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-65 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-72 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-72 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-73 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-73 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-54 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-72 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-67 
+2010/06/25 08:59:02 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-67 sampler: Home Page 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-87 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-73 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-73 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-87 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-72 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-54 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-65 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-43 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-67 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-50 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-24 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-60 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-56 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-97 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-78 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-23 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-21 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-29 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-40 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-94 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-48 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-63 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-80 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-90 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-81 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-86 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-13 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-62 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-88 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-22 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-98 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-77 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-52 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-71 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-47 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-58 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-95 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-100 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-14 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-64 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-45 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-20 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-76 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-17 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-44 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-69 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-19 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-32 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-41 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-57 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-89 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-51 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-12 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-99 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-11 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-33 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-85 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-53 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-26 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-82 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-35 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-30 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-55 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-83 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-16 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-70 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-74 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-34 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-84 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-93 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-38 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-18 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-75 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-49 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-61 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-25 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-31 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-36 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-68 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-91 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-15 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-39 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-92 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-96 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-27 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-28 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-79 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-67 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-59 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-59 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-46 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-46 
+2010/06/25 08:59:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-37 
+2010/06/25 08:59:02 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-37 
+2010/06/25 08:59:08 WARN  - jmeter.engine.StandardJMeterEngine: Thread won't exit: Thread Group 1-66 
+2010/06/25 08:59:13 WARN  - jmeter.engine.StandardJMeterEngine: Thread won't exit: Thread Group 1-4 
+2010/06/25 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 08:59:13 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 08:59:13 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 08:59:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 08:59:33 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 08:59:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-66 
+2010/06/25 08:59:33 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-66 
+2010/06/25 08:59:33 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 08:59:33 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 08:59:33 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 08:59:33 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 08:59:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 08:59:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 08:59:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 10 threads for group Thread Group. Ramp up = 5. 
+2010/06/25 08:59:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 08:59:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 08:59:34 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 08:59:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 08:59:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 08:59:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 08:59:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 08:59:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 08:59:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 08:59:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 08:59:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 08:59:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:00:10 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:00:10 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:00:10 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:00:10 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:00:11 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:00:11 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:00:13 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:00:13 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:00:14 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:00:14 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:00:14 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:00:14 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:00:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:00:15 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:00:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:00:15 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:00:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:00:15 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:00:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:00:16 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:00:16 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:00:16 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:00:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:00:16 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:13:59 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 09:13:59 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 09:13:59 INFO  - jmeter.engine.StandardJMeterEngine: Starting 10 threads for group Thread Group. Ramp up = 1. 
+2010/06/25 09:13:59 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 09:13:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 09:13:59 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 09:14:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:14:38 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:14:38 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:14:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:14:39 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:14:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:14:39 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:14:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:14:39 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:14:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:14:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:14:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:14:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:14:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:14:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:14:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:14:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:14:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:14:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:14:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:14:42 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:14:42 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:14:42 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:14:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:14:42 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 09:15:17 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 09:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Starting 10 threads for group Thread Group. Ramp up = 1. 
+2010/06/25 09:15:17 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 09:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 09:15:17 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 09:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 09:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 09:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 09:15:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 09:15:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 09:15:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 09:15:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 09:15:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 09:15:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:16:17 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:16:17 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:16:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:16:18 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:16:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:16:19 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:16:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:16:21 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:16:22 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:16:22 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:16:23 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:16:23 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:16:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:16:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:16:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:16:25 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:16:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:16:27 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:16:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:16:28 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:16:28 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:16:28 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:16:28 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:16:28 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:16:50 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 09:16:50 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 09:16:50 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. Ramp up = 20. 
+2010/06/25 09:16:50 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 09:16:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 09:16:50 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 09:16:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 09:16:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 09:16:53 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 09:16:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 09:16:55 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 09:16:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 09:16:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 09:16:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 09:16:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:17:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2010/06/25 09:17:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2010/06/25 09:17:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2010/06/25 09:17:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2010/06/25 09:17:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2010/06/25 09:17:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2010/06/25 09:17:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2010/06/25 09:17:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2010/06/25 09:17:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2010/06/25 09:17:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2010/06/25 09:18:04 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:18:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:18:10 INFO  - jmeter.gui.action.Start: Stopping test 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Home Page 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 WARN  - jmeter.threads.JMeterThread: The delay timer was interrupted - probably did not wait as long as intended. 
+2010/06/25 09:18:10 ERROR - jmeter.protocol.http.sampler.HTTPSampler: readResponse: java.net.SocketException: Socket closed 
+2010/06/25 09:18:10 ERROR - jmeter.protocol.http.sampler.HTTPSampler: Cause: java.net.SocketException: Socket closed 
+2010/06/25 09:18:10 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2010/06/25 09:18:10 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-20 
+2010/06/25 09:18:16 WARN  - jmeter.engine.StandardJMeterEngine: Thread won't exit: Thread Group 1-19 
+2010/06/25 09:18:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2010/06/25 09:18:19 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-13 
+2010/06/25 09:18:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2010/06/25 09:18:21 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-18 
+2010/06/25 09:18:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:18:21 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:18:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:18:21 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:18:22 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2010/06/25 09:18:22 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-16 
+2010/06/25 09:18:22 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:18:22 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:18:22 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2010/06/25 09:18:22 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-11 
+2010/06/25 09:18:23 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2010/06/25 09:18:23 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-15 
+2010/06/25 09:18:23 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:18:23 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:18:23 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2010/06/25 09:18:23 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-12 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-19 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-14 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:18:24 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-17 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:18:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:18:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:18:24 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:18:36 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 09:18:36 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 09:18:36 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. Ramp up = 40. 
+2010/06/25 09:18:36 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 09:18:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 09:18:36 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 09:18:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 09:18:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 09:18:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 09:18:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 09:18:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 09:18:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 09:18:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 09:18:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 09:18:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:18:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2010/06/25 09:18:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:18:56 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:18:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2010/06/25 09:19:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2010/06/25 09:19:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2010/06/25 09:19:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2010/06/25 09:19:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2010/06/25 09:19:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2010/06/25 09:19:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2010/06/25 09:19:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2010/06/25 09:19:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2010/06/25 09:19:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:19:29 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:20:04 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:20:04 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:20:15 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:20:15 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:20:21 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:20:21 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:20:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:20:28 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:20:34 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:20:34 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:20:37 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:20:37 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:20:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:20:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:20:45 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:20:45 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:20:47 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2010/06/25 09:20:47 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-11 
+2010/06/25 09:20:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2010/06/25 09:20:50 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-12 
+2010/06/25 09:20:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2010/06/25 09:20:51 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-13 
+2010/06/25 09:20:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2010/06/25 09:20:52 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-14 
+2010/06/25 09:20:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2010/06/25 09:20:53 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-15 
+2010/06/25 09:20:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2010/06/25 09:20:54 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-16 
+2010/06/25 09:20:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2010/06/25 09:20:55 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-17 
+2010/06/25 09:20:57 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2010/06/25 09:20:57 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-18 
+2010/06/25 09:20:58 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2010/06/25 09:20:58 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-19 
+2010/06/25 09:20:59 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2010/06/25 09:20:59 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-20 
+2010/06/25 09:20:59 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:20:59 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:20:59 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:20:59 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
+2010/06/25 09:22:05 INFO  - jmeter.services.FileServer: Set new base=/Users/brian/Projects/jmeter-testing/tests 
+2010/06/25 09:22:21 INFO  - jmeter.services.FileServer: Set new base=/Users/brian/Projects/jmeter-testing/tests 
+2010/06/25 09:24:21 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2010/06/25 09:24:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2010/06/25 09:24:22 INFO  - jmeter.engine.StandardJMeterEngine: Starting 20 threads for group Thread Group. Ramp up = 40. 
+2010/06/25 09:24:22 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2010/06/25 09:24:22 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2010/06/25 09:24:22 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2010/06/25 09:24:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2010/06/25 09:24:26 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2010/06/25 09:24:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2010/06/25 09:24:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2010/06/25 09:24:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2010/06/25 09:24:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2010/06/25 09:24:33 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-1 
+2010/06/25 09:24:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2010/06/25 09:24:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2010/06/25 09:24:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2010/06/25 09:24:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2010/06/25 09:24:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2010/06/25 09:24:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-2 
+2010/06/25 09:24:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2010/06/25 09:24:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2010/06/25 09:24:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2010/06/25 09:24:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2010/06/25 09:24:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2010/06/25 09:24:50 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-3 
+2010/06/25 09:24:50 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2010/06/25 09:24:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2010/06/25 09:24:54 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2010/06/25 09:24:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2010/06/25 09:24:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2010/06/25 09:25:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2010/06/25 09:25:00 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2010/06/25 09:25:00 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-4 
+2010/06/25 09:25:07 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2010/06/25 09:25:07 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-5 
+2010/06/25 09:25:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2010/06/25 09:25:18 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-6 
+2010/06/25 09:25:22 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2010/06/25 09:25:22 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-7 
+2010/06/25 09:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2010/06/25 09:25:25 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-10 
+2010/06/25 09:25:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2010/06/25 09:25:25 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-8 
+2010/06/25 09:25:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2010/06/25 09:25:28 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-9 
+2010/06/25 09:25:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2010/06/25 09:25:30 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-11 
+2010/06/25 09:25:33 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2010/06/25 09:25:33 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-12 
+2010/06/25 09:25:38 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2010/06/25 09:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-14 
+2010/06/25 09:25:38 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2010/06/25 09:25:38 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-13 
+2010/06/25 09:25:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2010/06/25 09:25:39 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-15 
+2010/06/25 09:25:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2010/06/25 09:25:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-17 
+2010/06/25 09:25:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2010/06/25 09:25:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-20 
+2010/06/25 09:25:40 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2010/06/25 09:25:40 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-16 
+2010/06/25 09:25:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2010/06/25 09:25:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-19 
+2010/06/25 09:25:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2010/06/25 09:25:41 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread Thread Group 1-18 
+2010/06/25 09:25:41 INFO  - jmeter.engine.StandardJMeterEngine: Stopping test 
+2010/06/25 09:25:41 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2010/06/25 09:25:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2010/06/25 09:25:41 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended 
