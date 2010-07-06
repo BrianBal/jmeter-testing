@@ -16,7 +16,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">5</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">25</stringProp>
+        <stringProp name="ThreadGroup.num_threads">75</stringProp>
         <stringProp name="ThreadGroup.ramp_time">50</stringProp>
         <longProp name="ThreadGroup.start_time">1278006997000</longProp>
         <longProp name="ThreadGroup.end_time">1278006997000</longProp>
@@ -62,7 +62,7 @@
           <stringProp name="calcMode">all active threads (shared)</stringProp>
           <doubleProp>
             <name>throughput</name>
-            <value>200.0</value>
+            <value>1000.0</value>
             <savedValue>0.0</savedValue>
           </doubleProp>
         </ConstantThroughputTimer>
